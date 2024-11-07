@@ -28,3 +28,5 @@ Route::get('/appointment', [AppointmentController::class,"index"]);
 Route::get('/contact', [ContactController::class,"index"]);
 Route::post('/send-message', [ContactController::class,"sendMessage"]);
 
+require_once('admin.php');
+
